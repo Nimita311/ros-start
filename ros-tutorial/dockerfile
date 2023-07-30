@@ -1,0 +1,7 @@
+FROM ros:noetic-ros-base-focal
+
+RUN apt update \
+    && apt install -y ros-${ROS_DISTRO}-ros-tutorials \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN echo 'source /opt/ros/${ROS_DISTRO}/setup.bash' >> /etc/bash.bashrc
