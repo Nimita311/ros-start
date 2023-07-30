@@ -22,6 +22,7 @@ Follow these steps to run ROS tutorial with Docker container:
 
 1. [Install Docker](https://docs.docker.com/engine/install) on the machine you want to run ROS tutorial. Docker helps you manage containers.
 1. Running node `turtlesim_node` in the tutorial needs GUI. Install X11 server [XQuartz](https://www.xquartz.org) on Mac or [VcXsrv](https://sourceforge.net/projects/vcxsrv) on Windows. You may need to change `docker-compose.yaml` according to your X11 server setup. It is OK to defer this step.
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository or download zip.
 1. Open command line (Terminal on Mac or Powershell on Windows), change directory to where this file is with `cd` command.
 1. Run the container. You will get an interactive shell session where ROS commands, `turtlesim` package, and everything else you need is available. Now go ahead and complete ROS tutorial.
     ```
